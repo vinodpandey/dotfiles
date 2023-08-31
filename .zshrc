@@ -111,3 +111,4 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 export PATH="/usr/local/opt/node@16/bin/:$PATH"
+export PATH=$PATH:$HOME/.maestro/bin
