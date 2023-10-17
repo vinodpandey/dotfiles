@@ -112,3 +112,4 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH="/usr/local/opt/node@16/bin/:$PATH"
 export PATH=$PATH:$HOME/.maestro/bin
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
