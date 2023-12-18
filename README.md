@@ -43,6 +43,13 @@ sudo ln -s $(pwd)/nvim-linux64/bin/nvim /usr/bin/nvim
 nvim --version
 ```
 
+Install JetBrainsMono Nerd Font
+
+```
+- https://www.nerdfonts.com/font-downloads
+- Download the fonts and open in Font Book in Mac and install
+```
+
 Install NvChad
 
 ```
