@@ -17,6 +17,8 @@ mv $HOME/.p10k.zsh $HOME/.p10k.zsh.bak
 ln -sf $HOME/.dotfiles/.p10k.zsh $HOME/.p10k.zsh
 ```
 
+## iTerm2
+
 ## oh-my-zsh
 
 ## neovim
