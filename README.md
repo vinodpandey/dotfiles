@@ -13,6 +13,9 @@ backup old dotfiles and symlink the new files
 mv $HOME/.zshrc $HOME/.zshrc.bak
 ln -sf $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
+mv $HOME/.zprofile $HOME/.zprofile.bak
+ln -sf $HOME/.dotfiles/.zprofile $HOME/.zprofile
+
 mv $HOME/.p10k.zsh $HOME/.p10k.zsh.bak
 ln -sf $HOME/.dotfiles/.p10k.zsh $HOME/.p10k.zsh
 ```
