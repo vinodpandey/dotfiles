@@ -110,10 +110,10 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-export PATH="/usr/local/opt/node@16/bin/:$PATH"
+export PATH="/opt/homebrew/opt/node@16/bin/:$PATH"
 export PATH=$PATH:$HOME/.maestro/bin
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-export PATH="/usr/local/opt/mariadb@10.6/bin:$PATH"
+export PATH="/opt/homebrew/opt/mariadb@10.6/bin:$PATH"
 export ANDROID_HOME=~/Library/Android/sdk
 export ANDROID_SDK_ROOT=$ANDROID_HOME
 export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools
