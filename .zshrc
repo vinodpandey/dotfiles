@@ -110,6 +110,14 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+if [ -e $HOME/.bash_aliases ]; then
+    source $HOME/.bash_aliases
+fi
+
+if [ -e $HOME/.bash_functions ]; then
+    source $HOME/.bash_functions
+fi
+
 export PATH="/opt/homebrew/opt/node@16/bin/:$PATH"
 export PATH=$PATH:$HOME/.maestro/bin
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
