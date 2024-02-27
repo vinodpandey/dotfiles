@@ -118,7 +118,7 @@ if [ -e $HOME/.bash_functions ]; then
     source $HOME/.bash_functions
 fi
 
-export PATH="/opt/homebrew/opt/node@16/bin/:$PATH"
+export PATH="/opt/homebrew/opt/node@18/bin/:$PATH"
 export PATH=$PATH:$HOME/.maestro/bin
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 export PATH="/opt/homebrew/opt/mariadb@10.6/bin:$PATH"
